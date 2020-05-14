@@ -1,0 +1,17 @@
+{
+  "name": "ReverseProxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/reverse-proxy.js",
+  "scripts": {
+    "start": "node %npm_package_main%",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thomas Martin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3"
+  }
+}
